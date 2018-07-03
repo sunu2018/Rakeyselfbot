@@ -484,6 +484,8 @@ def myhelp():
                   " ⏳ปิดกัน สมาชิก 💨 ปิดป้องกันสมาชิก⌛"+ "  \n" + \
                   " 🌛กันคน เข้า 💨 เปิดป้องกันคนเข้า🌜"+ "  \n" + \
                   " ☁ปิดกัน คนเข้า  💨 ปิดป้องกันคนเข้า⛅"+ "  \n" + \
+                  " มาหำ ➡ เรียกคิก"+ "  \n" + \
+                  " หนีหำ ➡ คิกออกลุ่ม"+ "  \n" + \
                   " บ อ ท ท ด ล อ ง น้ อ ง สุ"
     return myHelp
 
@@ -1156,7 +1158,7 @@ def lineBot(op):
                         kk.sendContact(to, ki2MID)
                         kc.sendContact(to, ki3MID)
                         ke.sendContact(to, ki4MID)
-                elif text.lower() in ["balik"]:    
+                elif text.lower() in ["หนีหำ"]:    
                     #gye.leaveGroup(msg.to)
                     ki.leaveGroup(msg.to)
                     kk.leaveGroup(msg.to)
@@ -1168,7 +1170,7 @@ def lineBot(op):
                     kk.leaveGroup(msg.to)
                     kc.leaveGroup(msg.to)
                     ke.leaveGroup(msg.to)      
-                elif text.lower() in ["halo"]:    
+                elif text.lower() in ["มาหำ"]:    
                     G = line.getGroup(msg.to)
                     ginfo = line.getGroup(msg.to)
                     G.preventedJoinByTicket = False
@@ -1177,8 +1179,8 @@ def lineBot(op):
                     Ticket = line.reissueGroupTicket(msg.to)
                     ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                     kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                    kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                    ke.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    #kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    #ke.acceptGroupInvitationByTicket(msg.to,Ticket)
                     G = line.getGroup(msg.to)
                     G.preventedJoinByTicket = True
                     line.updateGroup(G)
