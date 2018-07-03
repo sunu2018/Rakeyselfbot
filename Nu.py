@@ -44,17 +44,17 @@ lineMID = line.profile.mid
 lineProfile = line.getProfile()
 lineSettings = line.getSettings()
 
-# kiMID = ki.profile.mid
-# kiProfile = ki.getProfile()
-# kiSettings = ki.getSettings()
+ kiMID = ki.profile.mid
+ kiProfile = ki.getProfile()
+ kiSettings = ki.getSettings()
 
-# kkMID = kk.profile.mid
-# kkProfile = kk.getProfile()
-# kkSettings = kk.getSettings()
+ kkMID = kk.profile.mid
+ kkProfile = kk.getProfile()
+ kkSettings = kk.getSettings()
 
-# kcMID = kc.profile.mid
-# kcProfile = kc.getProfile()
-# kcSettings = kc.getSettings()
+ #kcMID = kc.profile.mid
+ #kcProfile = kc.getProfile()
+ #kcSettings = kc.getSettings()
 
 # keMID = kc.profile.mid
 # keProfile = kc.getProfile()
@@ -63,8 +63,8 @@ lineSettings = line.getSettings()
 
 # oepoll = OEPoll(ke)
 # oepoll = OEPoll(kc)
-# oepoll = OEPoll(kk)
-# oepoll = OEPoll(ki)
+ oepoll = OEPoll(kk)
+ oepoll = OEPoll(ki)
 oepoll = OEPoll(line)
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
@@ -72,11 +72,11 @@ read = json.load(readOpen)
 settings = json.load(settingsOpen)
 Rfu = [line]
 lineMID = line.getProfile().mid
-# kiMID = ki.getProfile().mid
-# kkMID = kk.getProfile().mid
+ kiMID = ki.getProfile().mid
+ kkMID = kk.getProfile().mid
 # kcMID = kc.getProfile().mid
 # kcMID = ke.getProfile().mid
-# bot1 = line.getProfile().mid
+ bot1 = line.getProfile().mid
 RfuBot=[lineMID]
 Family=["u3930826c2f2dbf7b11a27efbcc37add",lineMID]
 admin=['u3930826c2f2dbf7b11a27efbcc37add',lineMID]
@@ -2209,7 +2209,7 @@ def lineBot(op):
                     gruplist = line.getAllContactIds()
                     kontak = line.getContacts(gruplist)
                     num=1
-                    msgs="`~|°• πနးຫຮี่のีধ ์×…"
+                    msgs="`~น้ อ ง สุ แ ละ พี่ นุ"
                     for ids in kontak:
                         msgs+="\n[%i] %s" % (num, ids.mid)
                         num=(num+1)
@@ -2407,10 +2407,10 @@ def lineBot(op):
                         time.sleep(0.01)
                         kk.acceptGroupInvitationByTicket(to,format(str(ticket)))
                         time.sleep(0.01)
-                        kc.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                        time.sleep(0.01)
-                        ke.acceptGroupInvitationByTicket(to,format(str(ticket)))
-                        time.sleep(0.01)                        
+                        #kc.acceptGroupInvitationByTicket(to,format(str(ticket)))
+                        #time.sleep(0.01)
+                        #ke.acceptGroupInvitationByTicket(to,format(str(ticket)))
+                        #time.sleep(0.01)                        
                         group.preventedJoinByTicket = True
                         line.updateGroup(group)
                         print ("คิ ก เ ก อ ร์ เ ข้ า ")
