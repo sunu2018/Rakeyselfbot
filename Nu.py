@@ -21,13 +21,13 @@ line = LINE()
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
- ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
- ki.log("Auth Token : " + str(ki.authToken))
- ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
+ #ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
+# ki.log("Auth Token : " + str(ki.authToken))
+ #ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
- kk = LINE("EuQ9236018FhwIU27NE3.z+0IpsHolIaEJN/TJzKjSW.NFx1S7q7NbDk/Pq+ra1fh4HhrX3XVdrGHHEPcYH7QEU=")
- kk.log("Auth Token : " + str(kk.authToken))
- kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
+# kk = LINE("EuQ9236018FhwIU27NE3.z+0IpsHolIaEJN/TJzKjSW.NFx1S7q7NbDk/Pq+ra1fh4HhrX3XVdrGHHEPcYH7QEU=")
+ #kk.log("Auth Token : " + str(kk.authToken))
+ #kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
 # kc = LINE()
 # kc.log("Auth Token : " + str(kc.authToken))
@@ -36,6 +36,9 @@ line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 # ke = LINE()
 # ke.log("Auth Token : " + str(ke.authToken))
 # ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
+
+ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
+kk = LINE("EuQ9236018FhwIU27NE3.z+0IpsHolIaEJN/TJzKjSW.NFx1S7q7NbDk/Pq+ra1fh4HhrX3XVdrGHHEPcYH7QEU=")
 
 
 print ("Login Succes")
