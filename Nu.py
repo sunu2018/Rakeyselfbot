@@ -47,13 +47,13 @@ lineMID = line.profile.mid
 lineProfile = line.getProfile()
 lineSettings = line.getSettings()
 
- kiMID = ki.profile.mid
- kiProfile = ki.getProfile()
- kiSettings = ki.getSettings()
+kiMID = ki.profile.mid
+kiProfile = ki.getProfile()
+kiSettings = ki.getSettings()
 
- kkMID = kk.profile.mid
- kkProfile = kk.getProfile()
- kkSettings = kk.getSettings()
+kkMID = kk.profile.mid
+kkProfile = kk.getProfile()
+kkSettings = kk.getSettings()
 
  #kcMID = kc.profile.mid
  #kcProfile = kc.getProfile()
