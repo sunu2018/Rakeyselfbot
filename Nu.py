@@ -3678,7 +3678,7 @@ def lineBot(op):
              ginfo = line.getGroup(op.param1)
              contact = line.getContact(op.param2)
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
-             line.sendMessage(op.param1,str(settings["welcome"]))
+             line.sendMessage(op.param1,str(settings["สวัสดียินดีต้อนรับ ❤"]))
              line.sendImageWithURL(op.param1,image)
         if op.type == 15:
            print ("MEMBER LEAVE TO GROUP")
@@ -3689,7 +3689,7 @@ def lineBot(op):
              contact = line.getContact(op.param2)
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
              line.sendImageWithURL(op.param1,image)
-             line.sendMessage(op.param1,str(settings["bye"]) + "\n\n" + line.getContact(op.param2).displayName)
+             line.sendMessage(op.param1,str(settings["bye ลาก่อย 🖑"]) + "\n\n" + line.getContact(op.param2).displayName)
 # ----------------- NOTIFED MEMBER JOIN GROUP
         if op.type == 55:
             try:
