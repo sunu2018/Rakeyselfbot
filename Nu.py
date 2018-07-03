@@ -51,9 +51,9 @@ line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 # ke.log("Auth Token : " + str(ke.authToken))
 # ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
 
-line = LINE("EuKsJJv0WWsb2FA13oXf.4YSrMg2oNLZ3c2qS97Qi+W.cCR5QqKT77zjuzea9rJRL9gZmqEp0NXDlWVMSlZv68s=")
-#ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
-#kk = LINE("EuQ9236018FhwIU27NE3.z+0IpsHolIaEJN/TJzKjSW.NFx1S7q7NbDk/Pq+ra1fh4HhrX3XVdrGHHEPcYH7QEU=")
+#line = LINE("EuKsJJv0WWsb2FA13oXf.4YSrMg2oNLZ3c2qS97Qi+W.cCR5QqKT77zjuzea9rJRL9gZmqEp0NXDlWVMSlZv68s=")
+#ki = LINE("")
+#kk = LINE("")
 
 
 print ("Login Succes")
@@ -62,13 +62,13 @@ lineMID = line.profile.mid
 lineProfile = line.getProfile()
 lineSettings = line.getSettings()
 
-kiMID = ki.profile.mid
-kiProfile = ki.getProfile()
-kiSettings = ki.getSettings()
+#kiMID = ki.profile.mid
+#kiProfile = ki.getProfile()
+#kiSettings = ki.getSettings()
 
-kkMID = kk.profile.mid
-kkProfile = kk.getProfile()
-kkSettings = kk.getSettings()
+#kkMID = kk.profile.mid
+#kkProfile = kk.getProfile()
+#kkSettings = kk.getSettings()
 
  #kcMID = kc.profile.mid
  #kcProfile = kc.getProfile()
@@ -81,8 +81,8 @@ kkSettings = kk.getSettings()
 
 # oepoll = OEPoll(ke)
 # oepoll = OEPoll(kc)
-oepoll = OEPoll(kk)
-oepoll = OEPoll(ki)
+#oepoll = OEPoll(kk)
+#oepoll = OEPoll(ki)
 oepoll = OEPoll(line)
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
@@ -90,11 +90,11 @@ read = json.load(readOpen)
 settings = json.load(settingsOpen)
 Rfu = [line]
 lineMID = line.getProfile().mid
-kiMID = ki.getProfile().mid
-kkMID = kk.getProfile().mid
+#kiMID = ki.getProfile().mid
+#kkMID = kk.getProfile().mid
 # kcMID = kc.getProfile().mid
 # kcMID = ke.getProfile().mid
-bot1 = line.getProfile().mid
+#bot1 = line.getProfile().mid
 RfuBot=[lineMID]
 Family=["u3930826c2f2dbf7b11a27efbcc37add",lineMID]
 admin=['u3930826c2f2dbf7b11a27efbcc37add',lineMID]
