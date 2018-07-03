@@ -31,9 +31,9 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-line = LINE()
-line.log("Auth Token : " + str(line.authToken))
-line.log("Timeline Token : " + str(line.tl.channelAccessToken))
+#line = LINE()
+#line.log("Auth Token : " + str(line.authToken))
+#line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
  #ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
 # ki.log("Auth Token : " + str(ki.authToken))
@@ -51,9 +51,9 @@ line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 # ke.log("Auth Token : " + str(ke.authToken))
 # ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
 
-#line = LINE("EuKsJJv0WWsb2FA13oXf.4YSrMg2oNLZ3c2qS97Qi+W.cCR5QqKT77zjuzea9rJRL9gZmqEp0NXDlWVMSlZv68s=")
-#ki = LINE("EubCMTiqcB99iI001905.4ncHhhZkEbPPMUBZseq2jq.bv0lAp5DPYgOaJexKgTCNkYDvVaFC3gQPASEWxCMAOU=")
-#kk = LINE("")
+line = LINE("EuKsJJv0WWsb2FA13oXf.4YSrMg2oNLZ3c2qS97Qi+W.cCR5QqKT77zjuzea9rJRL9gZmqEp0NXDlWVMSlZv68s=")
+ki = LINE("EubCMTiqcB99iI001905.4ncHhhZkEbPPMUBZseq2jq.bv0lAp5DPYgOaJexKgTCNkYDvVaFC3gQPASEWxCMAOU=")
+kk = LINE("EuZSNIYWjlod4YgQFML3.z+0IpsHolIaEJN/TJzKjSW.rDLyncS/9cbml48arTvGx4oScaptGZe6Y9qcSuYB+QY=")
 
 
 print ("Login Succes")
