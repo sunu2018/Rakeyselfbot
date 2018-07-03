@@ -51,8 +51,9 @@ line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 # ke.log("Auth Token : " + str(ke.authToken))
 # ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
 
-ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
-kk = LINE("EuQ9236018FhwIU27NE3.z+0IpsHolIaEJN/TJzKjSW.NFx1S7q7NbDk/Pq+ra1fh4HhrX3XVdrGHHEPcYH7QEU=")
+line = LINE("EuKsJJv0WWsb2FA13oXf.4YSrMg2oNLZ3c2qS97Qi+W.cCR5QqKT77zjuzea9rJRL9gZmqEp0NXDlWVMSlZv68s=")
+#ki = LINE("EuMyJewGfP7IQml9de25.4ncHhhZkEbPPMUBZseq2jq.Gt6JJWu4eicDTlVQ64qSkBa3pPiNYwYZRFuRf1DP+Og=")
+#kk = LINE("EuQ9236018FhwIU27NE3.z+0IpsHolIaEJN/TJzKjSW.NFx1S7q7NbDk/Pq+ra1fh4HhrX3XVdrGHHEPcYH7QEU=")
 
 
 print ("Login Succes")
