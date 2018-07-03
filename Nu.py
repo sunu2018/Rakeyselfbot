@@ -2722,21 +2722,21 @@ def lineBot(op):
                         line.sendMessage(msg.to,"Update Bio All Kicker to : " + string)
                         print ("Update Bio All Kicker")
 
-                elif text.lower() == "Rakey":
-                    if msg._from in Family:
-                        profile = ki.getProfile()
-                        text = profile.displayName + ""
-                        ki.sendMessage(to, text)                                
-                        profile = kk.getProfile()
-                        text = profile.displayName + ""
-                        kk.sendMessage(to, text)                                
-                        profile = kc.getProfile()
-                        text = profile.displayName + ""
-                        kc.sendMessage(to, text)
-                        profile = ke.getProfile()                        
-                        text = profile.displayName + ""
-                        ke.sendMessage(to, text)                        
-                        print ("สั่งคลิ้กเข้า")
+              #  elif text.lower() == "Rakey":
+                  #  if msg._from in Family:
+                   #     profile = ki.getProfile()
+                      #  text = profile.displayName + ""
+                       # ki.sendMessage(to, text)                                
+                      #  profile = kk.getProfile()
+                       # text = profile.displayName + ""
+                       # kk.sendMessage(to, text)                                
+                       # profile = kc.getProfile()
+                       # text = profile.displayName + ""
+                       # kc.sendMessage(to, text)
+                       # profile = ke.getProfile()                        
+                       # text = profile.displayName + ""
+                       # ke.sendMessage(to, text)                        
+                       # print ("สั่งคลิ้กเข้า")
 
   
 
