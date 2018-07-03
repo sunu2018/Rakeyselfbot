@@ -1150,6 +1150,41 @@ def lineBot(op):
 						
 					
 #==============================================================================#
+                elif msg.text.lower() == 'cekk':
+                        line.sendContact(to, gyeMID)
+                        ki.sendContact(to, aisMID)
+                        kk.sendContact(to, ki2MID)
+                        kc.sendContact(to, ki3MID)
+                        ke.sendContact(to, ki4MID)
+                elif text.lower() in ["balik"]:    
+                    #gye.leaveGroup(msg.to)
+                    ki.leaveGroup(msg.to)
+                    kk.leaveGroup(msg.to)
+                    kc.leaveGroup(msg.to)
+                    ke.leaveGroup(msg.to)
+                elif text.lower() in ["aku pamit yah"]:    
+                    line.leaveGroup(msg.to)
+                    ki.leaveGroup(msg.to)
+                    kk.leaveGroup(msg.to)
+                    kc.leaveGroup(msg.to)
+                    ke.leaveGroup(msg.to)      
+                elif text.lower() in ["halo"]:    
+                    G = line.getGroup(msg.to)
+                    ginfo = line.getGroup(msg.to)
+                    G.preventedJoinByTicket = False
+                    line.updateGroup(G)
+                    invsend = 0
+                    Ticket = line.reissueGroupTicket(msg.to)
+                    ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    kk.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    ke.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    G = line.getGroup(msg.to)
+                    G.preventedJoinByTicket = True
+                    line.updateGroup(G)
+                    G.preventedJoinByTicket(G)
+                    line.updateGroup(G)
+   
 #==============================================================================#          
                 elif text.lower() == 'แท็ก':
                             if msg.toType == 0:
@@ -2433,35 +2468,6 @@ def lineBot(op):
                         line.updateGroup(group)
                         print ("คิ ก เ ก อ ร์ เ ข้ า ")
 #~~~~~~~~~~~~~~~~~ระบบเข้าออกสำรอง~~~~~~~~~~~~~~~~~~~~~
-               elif text.lower() in ["หนีหำ"]:    
-                    #gye.leaveGroup(msg.to)
-                    ki.leaveGroup(msg.to)
-                    kk.leaveGroup(msg.to)
-                    kc.leaveGroup(msg.to)
-                    ke.leaveGroup(msg.to)                  
-                elif text.lower() in ["ลาก่อน"]: 
-                    line.leaveGroup(msg.to)
-                    ki.leaveGroup(msg.to)
-                    kk.leaveGroup(msg.to)
-                    kc.leaveGroup(msg.to)
-                    ke.leaveGroup(msg.to)
-                elif text.lower() in ["มาหำ"]:    
-                    G = line.getGroup(msg.to)
-                    ginfo = line.getGroup(msg.to)
-                    G.preventedJoinByTicket = False
-                    line.updateGroup(G)
-                    invsend = 0
-                    Ticket = line.reissueGroupTicket(msg.to)		
-                    ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                    kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                    kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                    ke.acceptGroupInvitationByTicket(msg.to,Ticket)                   	
-                    G = line.getGroup(msg.to)
-                    G.preventedJoinByTicket = True
-                    line.updateGroup(G)
-                    G.preventedJoinByTicket(G)
-                    line.updateGroup(G)
-                       
 #-----------------------------------------------------------------------
                 elif 'เตะ' in text.lower():
                        targets = []
