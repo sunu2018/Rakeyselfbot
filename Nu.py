@@ -52,7 +52,7 @@ line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 # ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
 
 #line = LINE("EuKsJJv0WWsb2FA13oXf.4YSrMg2oNLZ3c2qS97Qi+W.cCR5QqKT77zjuzea9rJRL9gZmqEp0NXDlWVMSlZv68s=")
-#ki = LINE("")
+#ki = LINE("EubCMTiqcB99iI001905.4ncHhhZkEbPPMUBZseq2jq.bv0lAp5DPYgOaJexKgTCNkYDvVaFC3gQPASEWxCMAOU=")
 #kk = LINE("")
 
 
